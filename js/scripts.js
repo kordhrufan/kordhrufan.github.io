@@ -128,7 +128,7 @@ function personajeEspecie(root){
             method: 'GET',
             async: false,
             success: function (data) {
-                personajes = ("Race: "+data.name+" <br>language: "+data.language);
+                personajes = ("Race: "+data.name+" <br>Language: "+data.language+" <br>Classification: "+data.classification);
                 return personajes;
             },
             error: function (e) {
